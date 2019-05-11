@@ -7,6 +7,7 @@ import zhCN from 'antd/lib/locale-provider/zh_CN';
 import routes from './routes';
 import configureStore from './store/configureStore';
 import 'antd/dist/antd.min.css';
+import 'minireset.css';
 
 const store = configureStore();
 

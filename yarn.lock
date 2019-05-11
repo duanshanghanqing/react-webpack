@@ -4716,6 +4716,11 @@ minipass@^2.2.1, minipass@^2.3.4:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
 
+minireset.css@^0.0.4:
+  version "0.0.4"
+  resolved "http://npm.taimei.com:80/minireset.css/-/minireset.css-0.0.4.tgz#50bbebb8e9466bb2c0323973da8aa96e2241615d"
+  integrity sha1-ULvruOlGa7LAMjlz2oqpbiJBYV0=
+
 minizlib@^1.1.1:
   version "1.2.1"
   resolved "http://npm.taimei.com:80/minizlib/-/minizlib-1.2.1.tgz#dd27ea6136243c7c880684e8672bb3a45fd9b614"

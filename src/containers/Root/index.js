@@ -1,13 +1,16 @@
 import React from 'react';
 import { renderRoutes } from 'react-router-config';
 import Header from '../Header';
+import './index.less';
 
 export default ({ route, match }) => {
   console.log(match);
   return (
     <React.Fragment>
       <Header />
-      {renderRoutes(route.routes)}
+      <div className="Root-body">
+        {renderRoutes(route.routes)}
+      </div>
     </React.Fragment>
   );
 };
